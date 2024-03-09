@@ -1,0 +1,40 @@
+.services {
+    background-color: #f8f9fa;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  p span{
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .service-card {
+    background-color: #c6e1ff;
+    border: 3px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 20px;
+    width: 300px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  

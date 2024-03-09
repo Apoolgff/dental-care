@@ -1,0 +1,59 @@
+.form-container{
+    background-image: url(/images/appointmentImage.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 3px solid #007bff;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.formulario-container h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-container [type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formulario-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
