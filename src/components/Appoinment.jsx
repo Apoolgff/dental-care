@@ -9,7 +9,7 @@ const Appoinment = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-    };
+    }; 
 
     return (
         <div className='form-container'>
