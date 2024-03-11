@@ -1,5 +1,8 @@
 import React from 'react';
 import '../styles/Services.css';
+import protesis from '/images/protesis.svg'
+import caries from '/images/caries.svg'
+import whitening from '/images/whitening.svg'
 
 const Services = () => {
     return (
@@ -8,6 +11,7 @@ const Services = () => {
             <div className="services-container">
                 <div className="service-card">
                     <h3>Blanqueamiento</h3>
+                    <img src={caries} alt="whitening Icon" className="icon-svg" />
                     <p>El blanqueamiento dental profesional es un procedimiento
                         que ayuda a eliminar las manchas y
                         aclarar el color de los dientes,
@@ -17,6 +21,7 @@ const Services = () => {
                 </div>
                 <div className="service-card">
                     <h3>Implantes Dentales</h3>
+                    <img src={protesis} alt="protesis Icon" className="icon-svg" />
                     <p>Los implantes dentales son una solución
                         permanente para reemplazar dientes perdidos.
                         Vuelva a tener una sonrisa reluciente.
@@ -25,6 +30,7 @@ const Services = () => {
                 </div>
                 <div className="service-card">
                     <h3>Tratamiento de Caries</h3>
+                    <img src={whitening} alt="caries Icon" className="icon-svg" />
                     <p>El tratamiento de caries dental implica
                         la eliminación del tejido dental afectado
                         por la caries y la restauración del diente dañado.</p>

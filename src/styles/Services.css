@@ -1,7 +1,11 @@
 .services {
-    background-color: #f8f9fa;
     padding: 100px 20px;
     text-align: center;
+    background-color: #fff;
+opacity: 1;
+background-image:  radial-gradient(#007bff 0.8px, transparent 0.8px), radial-gradient(#007bff 0.8px, #fff 0.8px);
+background-size: 32px 32px;
+background-position: 0 0,16px 16px;
   }
   
   .section-title {

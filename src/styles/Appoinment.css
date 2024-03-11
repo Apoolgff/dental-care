@@ -1,11 +1,15 @@
 .form-container{
-    background-image: url(/images/appointmentImage.jpg);
+    color: #343a40;
+    padding: 20px;
+    text-align: center;
+    background-image: url(/images/agendar.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 500px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid #007bff;
+    border-bottom: 3px solid #007bff;
 }
 
 .formulario-container {
@@ -20,6 +24,10 @@
 .formulario-container h2{
     text-align: center;
     margin-bottom: 10px;
+}
+
+.form-container img{
+    margin: 10px;
 }
 
 .form-group {

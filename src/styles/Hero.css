@@ -3,6 +3,8 @@
     background-position: center;
     position: relative;
     height: 650px;
+    border-top: 3px solid #007bff;
+    border-bottom: 3px solid #007bff;
 }
 
 .hero {
